@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-<html style="height: 100%" lang="zh">
+<html style="height: 100%" lang="zh" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <script type="text/javascript" src="/js/relationship.js"></script>
@@ -12,6 +11,7 @@
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
 </head>
 <body style="height: 100%; margin: 0">
+<h2 th:text="${title}">Cum sociis（博客标题）</h2>
 <div id="container" style="height: 100%"></div>
 <script type="text/javascript">
     var dom = document.getElementById("container");

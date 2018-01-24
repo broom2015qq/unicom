@@ -3,6 +3,7 @@ package demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.ui.Model;
 
 @Controller
 @RequestMapping(value = "/users")
@@ -10,13 +11,13 @@ public class AppController {
 
     /**
      * http://localhost:8080/users/bob
-     * @param user
+     * @param id
      * @return
      */
-    @RequestMapping(value = "/{username}", method = RequestMethod.GET)
-    @ResponseBody
-    public String userProfile(@PathVariable(value = "username") String user) {
-        return user;
+    @RequestMapping(value = "/user/{id}", method = RequestMethod.GET)
+    public String userProfile(@PathVariable(value = "id") String id ,Model model) {
+        model.addAttribute("title", "This is a blog with id = " + id);
+        return "echart" ;
     }
 
     /**
