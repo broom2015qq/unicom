@@ -602,7 +602,7 @@
       <workItem from="1516929245914" duration="2356000" />
       <workItem from="1516933221245" duration="9258000" />
       <workItem from="1517294753140" duration="350000" />
-      <workItem from="1517296993873" duration="23147000" />
+      <workItem from="1517296993873" duration="23256000" />
     </task>
     <task id="LOCAL-00001" summary="fresh">
       <created>1516700147072</created>
@@ -639,11 +639,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517391332679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="输入id，请求返回图表">
+      <created>1517391360639</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1517391360639</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67575000" />
+    <option name="totallyTimeSpent" value="67684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="23" width="1280" height="724" extended-state="6" />
@@ -689,7 +696,8 @@
     <MESSAGE value="fresh" />
     <MESSAGE value="前端静态展示" />
     <MESSAGE value="传参" />
-    <option name="LAST_COMMIT_MESSAGE" value="传参" />
+    <MESSAGE value="输入id，请求返回图表" />
+    <option name="LAST_COMMIT_MESSAGE" value="输入id，请求返回图表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
