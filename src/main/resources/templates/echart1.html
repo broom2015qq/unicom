@@ -1,4 +1,5 @@
-<html xmlns="http://www.thymeleaf.org/" xmlns:th="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html style="height: 100%" lang="zh" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <script type="text/javascript" src="/js/jquery.js"></script>
@@ -7,24 +8,30 @@
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
 </head>
-
 <body style="height: 100%; margin: 0">
-<input>
 <div id="container" style="height: 100%"></div>
+<div th:fragment="pager" style="height: 100%" >
 <script th:inline="javascript">
     var searchid = [[${searchid}]];
-    console.log("********"+searchid.id);
+    console.log(searchid===null);
+    console.log("1.********"+searchid.id);
+    console.log(searchid.id===null);
+    if (searchid.id===null){
+        console.log("没有图表可以显示")
+    }else {
+//    有searchid的时候才显示
+    console.log("2.********"+searchid.id);
     var dom = document.getElementById("container");
     var myChart = echarts.init(dom);
     var app = {};
     var option = null;
     myChart.showLoading();
-    //    $.get('/js/used.gexf', function (xml) {
-    $.getJSON("/js/data.json",function(graph){
+        $.get('/js/used.gexf', function (xml) {
+//    $.getJSON("/js/data.json",function(graph){
         myChart.hideLoading();
 
-//        var graph = echarts.dataTool.gexf.parse(xml);
-        var graph = graph;
+        var graph = echarts.dataTool.gexf.parse(xml);
+//        var graph = graph;
         if(typeof(graph) == "object" &&
             Object.prototype.toString.call(graph).toLowerCase() == "[object object]" && !graph.length){
             console.info("json格式");
@@ -113,6 +120,8 @@
         var updateTime = endTime - startTime;
         console.log("Time used:", updateTime);
     }
+}
 </script>
+</div>
 </body>
 </html>

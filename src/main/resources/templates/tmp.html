@@ -1,25 +1,24 @@
-<html xmlns="http://www.thymeleaf.org/" xmlns:th="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html style="height: 100%" lang="zh" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
+    <!--<script type="text/javascript" src="/js/relationship.js"></script>-->
     <script type="text/javascript" src="/js/jquery.js"></script>
+    <!--<script type="text/javascript" src="/js/dataTool.js"></script>-->
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
     <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
 </head>
-
 <body style="height: 100%; margin: 0">
-<input>
 <div id="container" style="height: 100%"></div>
-<script th:inline="javascript">
-    var searchid = [[${searchid}]];
-    console.log("********"+searchid.id);
+<script type="text/javascript">
     var dom = document.getElementById("container");
     var myChart = echarts.init(dom);
     var app = {};
     var option = null;
     myChart.showLoading();
-    //    $.get('/js/used.gexf', function (xml) {
+//    $.get('/js/used.gexf', function (xml) {
     $.getJSON("/js/data.json",function(graph){
         myChart.hideLoading();
 
@@ -37,10 +36,9 @@
                 name: 'type' + i
             };
         }
-
         //node赋值的过程
         graph.nodes.forEach(function (node) {
-            node.description = "---"+searchid.id;
+            node.description = "谁说不能自定义"
             node.itemStyle = null;
             //这里大小
             node.value = node.symbolSize;

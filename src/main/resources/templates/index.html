@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>节点查询</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>节点查询</h1>
+
+<form action="#" th:action="@{/echart}" th:object="${searchid}" method="post">
+    <p>请输入id: <input type="text" th:field="*{id}" /></p>
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+<div th:include="echart1 :: pager" th:remove="tag"></div>
+</body>
+</html>

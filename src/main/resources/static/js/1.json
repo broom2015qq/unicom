@@ -1,0 +1,321 @@
+{
+    "nodes": [
+        {
+            "id": "0", 
+            "name": "Myriel", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            }, 
+            "symbolSize": 28.685715, 
+            "x": -266.82776, 
+            "y": 299.6904, 
+            "attributes": {
+                "modularity_class": 0
+            }
+        }, 
+        {
+            "id": "1", 
+            "name": "Napoleon", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 4, 
+            "x": -418.08344, 
+            "y": 446.8853, 
+            "attributes": {
+                "modularity_class": 1
+            }
+        }, 
+        {
+            "id": "2", 
+            "name": "MlleBaptistine", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 9.485714, 
+            "x": -212.76357, 
+            "y": 245.29176, 
+            "attributes": {
+                "modularity_class": 2
+            }
+        }, 
+        {
+            "id": "3", 
+            "name": "MmeMagloire", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 9.485714, 
+            "x": -242.82404, 
+            "y": 235.26283, 
+            "attributes": {
+                "modularity_class": 3
+            }
+        }, 
+        {
+            "id": "4", 
+            "name": "CountessDeLo", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 4, 
+            "x": -379.30386, 
+            "y": 429.06424, 
+            "attributes": {
+                "modularity_class": 4
+            }
+        }, 
+        {
+            "id": "5", 
+            "name": "Geborand", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 4, 
+            "x": -417.26337, 
+            "y": 406.03506, 
+            "attributes": {
+                "modularity_class": 5
+            }
+        }, 
+        {
+            "id": "6", 
+            "name": "Champtercier", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 4, 
+            "x": -332.6012, 
+            "y": 485.16974, 
+            "attributes": {
+                "modularity_class": 6
+            }
+        }, 
+        {
+            "id": "7", 
+            "name": "Cravatte", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 4, 
+            "x": -382.69568, 
+            "y": 475.09113, 
+            "attributes": {
+                "modularity_class": 7
+            }
+        }, 
+        {
+            "id": "8", 
+            "name": "Count", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 4, 
+            "x": -320.384, 
+            "y": 387.17325, 
+            "attributes": {
+                "modularity_class": 8
+            }
+        }, 
+        {
+            "id": "9", 
+            "name": "OldMan", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 4, 
+            "x": -344.39832, 
+            "y": 451.16772, 
+            "attributes": {
+                "modularity_class": 0
+            }
+        }, 
+        {
+            "id": "10", 
+            "name": "Labarre", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 4, 
+            "x": -89.34107, 
+            "y": 234.56128, 
+            "attributes": {
+                "modularity_class": 1
+            }
+        }, 
+        {
+            "id": "11", 
+            "name": "Valjean", 
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            }, 
+            "symbolSize": 100, 
+            "x": -87.93029, 
+            "y": -6.8120565, 
+            "attributes": {
+                "modularity_class": 1
+            }
+        }
+    ], 
+    "links": [
+        {
+            "id": "0", 
+            "name": null, 
+            "source": "1", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "1", 
+            "name": null, 
+            "source": "2", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "2", 
+            "name": null, 
+            "source": "3", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "3", 
+            "name": null, 
+            "source": "3", 
+            "target": "2", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "4", 
+            "name": null, 
+            "source": "4", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "5", 
+            "name": null, 
+            "source": "5", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "6", 
+            "name": null, 
+            "source": "6", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "7", 
+            "name": null, 
+            "source": "7", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "8", 
+            "name": null, 
+            "source": "8", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "9", 
+            "name": null, 
+            "source": "9", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "13", 
+            "name": null, 
+            "source": "11", 
+            "target": "0", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": null, 
+            "name": null, 
+            "source": "11", 
+            "target": "2", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "11", 
+            "name": null, 
+            "source": "11", 
+            "target": "3", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "10", 
+            "name": null, 
+            "source": "11", 
+            "target": "10", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }, 
+        {
+            "id": "14", 
+            "name": null, 
+            "source": "12", 
+            "target": "11", 
+            "lineStyle": {
+                "normal": { }
+            }
+        }  
+    ]
+}

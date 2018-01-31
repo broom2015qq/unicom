@@ -1,0 +1,361 @@
+{
+    "nodes": [
+        {
+            "id": "0",
+            "name": "TFS",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"TFS相关信息",
+            "type":"XXX"
+        },
+        {
+            "id": "1",
+            "name": "TFS_id=43361",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"tfs工作项id",
+            "type":"XXX"
+        },
+        {
+            "id": "2",
+            "name": "TFS_title=自动化测试",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"TFS工作项标题",
+            "type":"XXX"
+        },
+        {
+            "id": "3",
+            "name": "TFS_type=积压工作项",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"TFS工作项类型",
+            "type":"XXX"
+        },
+        {
+            "id": "4",
+            "name": "gitlab",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"gitlab相关信息",
+            "type":"XXX"
+        },
+        {
+            "id": "5",
+            "name": "project_id = 501",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"gitlab 中工程id",
+            "type":"XXX"
+        },
+        {
+            "id": "6",
+            "name": "project_name = microser/wuwj",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"gitlab 中 工程所在组/工程名称",
+            "type":"XXX"
+        },
+        {
+            "id": "7",
+            "name": "gitlab_branchname = feature_43361",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"gitlab 中分支名称",
+            "type":"XXX"
+        },
+        {
+            "id": "8",
+            "name": "gitlab_tag = v9.2.7",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"合并分支过程填写的tag信息，即部署生产中的版本号",
+            "type":"XXX"
+        },
+        {
+            "id": "9",
+            "name": "merge_time = 2018-01-26 09:59:12",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"合并分支时间",
+            "type":"XXX"
+        },
+        {
+            "id": "10",
+            "name": "测试环境DCOS",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"对应服务在测试环境DCOS的部署情况",
+            "type":"XXX"
+        },
+        {
+            "id": "11",
+            "name": "测试环境未部署对应服务，请查看",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"XXX",
+            "type":"XXX"
+        },
+        {
+            "id": "12",
+            "name": "生产环境DCOS部署服务情况",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(235,81,72)"
+                }
+            },
+            "symbolSize": 28.685715,
+            "x": -266.82776,
+            "y": 299.6904,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"XXX",
+            "type":"XXX"
+        },
+        {
+            "id": "13",
+            "name": "生产环境已部署对应服务，Marathon_name = wuwj-v9.2.7",
+            "itemStyle": {
+                "normal": {
+                    "color": "rgb(236,81,72)"
+                }
+            },
+            "symbolSize": 4,
+            "x": -418.08344,
+            "y": 446.8853,
+            "attributes": {
+                "modularity_class": 0
+            },
+            "description":"XXX",
+            "type":"XXX"
+        }
+    ],
+    "links": [
+        {
+            "id": "0",
+            "name": null,
+            "source": "0",
+            "target": "1",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "1",
+            "name": null,
+            "source": "0",
+            "target": "2",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "2",
+            "name": null,
+            "source": "0",
+            "target": "3",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "3",
+            "name": "这条线请加粗",
+            "source": "0",
+            "target": "4",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "4",
+            "name": null,
+            "source": "4",
+            "target": "5",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "5",
+            "name": null,
+            "source": "4",
+            "target": "6",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "6",
+            "name": null,
+            "source": "4",
+            "target": "7",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "7",
+            "name": null,
+            "source": "4",
+            "target": "8",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "8",
+            "name": null,
+            "source": "4",
+            "target": "9",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "9",
+            "name": "请加粗",
+            "source": "4",
+            "target": "10",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "10",
+            "name": null,
+            "source": "10",
+            "target": "11",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "11",
+            "name": "请加粗",
+            "source": "10",
+            "target": "12",
+            "lineStyle": {
+                "normal": { }
+            }
+        },
+        {
+            "id": "12",
+            "name": null,
+            "source": "12",
+            "target": "13",
+            "lineStyle": {
+                "normal": { }
+            }
+        }
+    ]
+}
