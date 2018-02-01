@@ -25,6 +25,22 @@ public class AppController {
     private ReadjsonService readjsonService;
 
     /**
+     * 根据id获取dfs节点信息
+     * @param modelMap
+     * @param searchid
+     * @return
+     */
+    @RequestMapping(value = "/idQuery",method = {RequestMethod.GET,RequestMethod.POST})
+    public String findById(ModelMap modelMap,searchid searchid){
+        //这里拿到dfs的id，用来获取数据
+        System.out.println(searchid.getId());
+        String data = readjsonService.getData();
+        modelMap.addAttribute("data", data);
+        return "index1";
+    }
+
+
+    /**
      * 输入id查询
      * @param model
      * @return
@@ -50,14 +66,6 @@ public class AppController {
         return new ModelAndView("echart",model);
     }
 
-    @RequestMapping(value = "/idQuery",method = {RequestMethod.GET,RequestMethod.POST})
-    public String findById(ModelMap modelMap,searchid searchid){
-        String data = readjsonService.getData();
-        modelMap.addAttribute("data", data);
-        return "index1";
-//        return "echart1";
-//        return "tmp";
-    }
 
     /**
      * http://localhost:8080/users/bob
