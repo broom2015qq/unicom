@@ -12,7 +12,8 @@
         "y": -6.6904,
         "attributes": {
             "modularity_class": 2
-        }
+        },
+        "description":"TFS相关信息"
     }, {
         "id": "1",
         "name": "TFS_id=43361",
@@ -26,7 +27,8 @@
         "y": -42.8853,
         "attributes": {
             "modularity_class": 6
-        }
+        },
+        "description":"tfs工作项id"
     }, {
         "id": "2",
         "name": "TFS_title=自动化测试",
@@ -40,7 +42,8 @@
         "y": -20.29176,
         "attributes": {
             "modularity_class": 2
-        }
+        },
+        "description":"TFS工作项标题"
     }, {
         "id": "3",
         "name": "TFS_type=积压工作项",
@@ -54,7 +57,8 @@
         "y": 87.26283,
         "attributes": {
             "modularity_class": 2
-        }
+        },
+        "description":"TFS工作项类型"
     }, {
         "id": "4",
         "name": "gitlab",
@@ -68,7 +72,8 @@
         "y": -203.06424,
         "attributes": {
             "modularity_class": 7
-        }
+        },
+        "description":"gitlab相关信息"
     }, {
         "id": "5",
         "name": "project_id = 501",
@@ -82,7 +87,8 @@
         "y": -204.03506,
         "attributes": {
             "modularity_class": 7
-        }
+        },
+        "description":"gitlab 中工程id"
     }, {
         "id": "6",
         "name": "project_name = microser/wuwj",
@@ -96,7 +102,8 @@
         "y": -273.16974,
         "attributes": {
             "modularity_class": 7
-        }
+        },
+        "description":"gitlab 中工程所在组/工程名称"
     }, {
         "id": "7",
         "name": "gitlab_branchname = feature_43361",
@@ -110,7 +117,8 @@
         "y": -347.09113,
         "attributes": {
             "modularity_class": 7
-        }
+        },
+        "description":"gitlab 中分支名称"
     }, {
         "id": "8",
         "name": "gitlab_tag = v9.2.7",
@@ -124,7 +132,8 @@
         "y": -298,
         "attributes": {
             "modularity_class": 7
-        }
+        },
+        "description":"合并分支过程填写的tag信息，即部署生产中的版本号"
     }, {
         "id": "9",
         "name": "merge_time = 2018-01-26 09:59:12",
@@ -138,7 +147,8 @@
         "y": -210.16772,
         "attributes": {
             "modularity_class": 7
-        }
+        },
+        "description":"合并分支时间"
     }, {
         "id": "10",
         "name": "测试环境DCOS",
@@ -152,7 +162,8 @@
         "y": -74.56128,
         "attributes": {
             "modularity_class": 5
-        }
+        },
+        "description":"对应服务在测试环境DCOS的部署情况"
     }, {
         "id": "11",
         "name": "测试环境未部署对应服务，请查看",
@@ -166,7 +177,8 @@
         "y": -115.8120565,
         "attributes": {
             "modularity_class": 5
-        }
+        },
+        "description":" "
     }, {
         "id": "12",
         "name": "生产环境DCOS部署服务情况",
@@ -180,7 +192,8 @@
         "y": -12.69139,
         "attributes": {
             "modularity_class": 5
-        }
+        },
+        "description":" "
     },{
         "id": "13",
         "name": "生产环境已部署对应服务，Marathon_name = wuwj-v9.2.7",
@@ -194,11 +207,12 @@
         "y": 110.69139,
         "attributes": {
             "modularity_class": 5
-        }
+        },
+        "description":" "
     }],
     "links": [{
         "id": "0",
-        "name": null,
+        "name": "a",
         "source": "1",
         "target": "0",
         "lineStyle": {
@@ -206,7 +220,7 @@
         }
     }, {
         "id": "1",
-        "name": null,
+        "name": "a",
         "source": "2",
         "target": "0",
         "lineStyle": {
@@ -214,7 +228,7 @@
         }
     }, {
         "id": "2",
-        "name": null,
+        "name": "a",
         "source": "3",
         "target": "0",
         "lineStyle": {
@@ -222,7 +236,7 @@
         }
     }, {
         "id": "3",
-        "name": null,
+        "name": "a",
         "source": "1",
         "target": "4",
         "lineStyle": {
@@ -230,7 +244,7 @@
         }
     }, {
         "id": "4",
-        "name": null,
+        "name": "a",
         "source": "4",
         "target": "5",
         "lineStyle": {
@@ -238,7 +252,7 @@
         }
     }, {
         "id": "5",
-        "name": null,
+        "name": "a",
         "source": "4",
         "target": "6",
         "lineStyle": {
