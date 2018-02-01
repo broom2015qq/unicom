@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e30b086-fe79-462c-8c89-7fbae79f3fd2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/dataTool.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/ecStat.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/demo/controller/AppController.java" afterPath="$PROJECT_DIR$/src/main/java/demo/controller/AppController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/echarts-gl.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/echarts-gl.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/echarts.min.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/echarts.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/echart1.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/echart1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index1.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index1.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,23 +35,23 @@
       <file leaf-file-name="echart1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/echart1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1517467994020" expanded="true" signature="2590:2685" ph="..." />
+                <marker date="1517468754380" expanded="true" signature="2241:2336" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/demo/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="310">
+              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/data/data.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3478">
@@ -79,9 +84,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -126,8 +131,6 @@
         <option value="$PROJECT_DIR$/src/main/java/demo/controller/AppControlle.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/js/main.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/demo1.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/echarts.min.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/echarts-gl.min.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/demo2.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/demo.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/echarts.min.js" />
@@ -158,10 +161,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/tmp.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/data.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index1.html" />
         <option value="$PROJECT_DIR$/src/main/resources/data/data.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/echart1.html" />
         <option value="$PROJECT_DIR$/src/main/java/demo/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/echarts.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/echarts-gl.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/ecStat.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/echart1.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/dataTool.min.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index1.html" />
       </list>
     </option>
   </component>
@@ -396,6 +403,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="dataTool.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="unicom_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="unicom_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -609,7 +626,7 @@
       <workItem from="1516933221245" duration="9258000" />
       <workItem from="1517294753140" duration="350000" />
       <workItem from="1517296993873" duration="23860000" />
-      <workItem from="1517448856121" duration="9979000" />
+      <workItem from="1517448856121" duration="10530000" />
     </task>
     <task id="LOCAL-00001" summary="fresh">
       <created>1516700147072</created>
@@ -674,11 +691,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517468202357</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="一些注释">
+      <created>1517468380871</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1517468380871</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78267000" />
+    <option name="totallyTimeSpent" value="78818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -727,7 +751,8 @@
     <MESSAGE value="输入id，请求返回图表" />
     <MESSAGE value="从后端返回json，前端获取" />
     <MESSAGE value="1.规定了每个节点的位置&#10;2.自定义鼠标滑过显示文本" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.规定了每个节点的位置&#10;2.自定义鼠标滑过显示文本" />
+    <MESSAGE value="一些注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="一些注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -736,24 +761,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo/controller/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="71" lean-forward="false" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -787,13 +794,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/demo1.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/echarts-gl.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="652982" lean-forward="false" selection-start-line="0" selection-start-column="652982" selection-end-line="0" selection-end-column="652982" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/demo2.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/echarts.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/demo.html" />
@@ -809,13 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="697" lean-forward="false" selection-start-line="0" selection-start-column="692" selection-end-line="0" selection-end-column="697" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/echarts.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20430">
-          <caret line="0" column="166099" lean-forward="false" selection-start-line="0" selection-start-column="166099" selection-end-line="0" selection-end-column="166099" />
         </state>
       </provider>
     </entry>
@@ -1034,17 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tmp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1072,34 +1054,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/data.json">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/echarts.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3478">
-          <caret line="254" column="19" lean-forward="false" selection-start-line="254" selection-start-column="19" selection-end-line="254" selection-end-column="19" />
+        <state relative-caret-position="427">
+          <caret line="0" column="701503" lean-forward="false" selection-start-line="0" selection-start-column="701503" selection-end-line="0" selection-end-column="701503" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/echart1.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/echarts-gl.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1517467994020" expanded="true" signature="2590:2685" ph="..." />
-          </folding>
+        <state relative-caret-position="454">
+          <caret line="0" column="652982" lean-forward="false" selection-start-line="0" selection-start-column="652982" selection-end-line="0" selection-end-column="652982" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/ecStat.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="0" column="9971" lean-forward="false" selection-start-line="0" selection-start-column="9971" selection-end-line="0" selection-end-column="9971" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/dataTool.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="0" column="2932" lean-forward="false" selection-start-line="0" selection-start-column="2932" selection-end-line="0" selection-end-column="2932" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="27" column="20" lean-forward="false" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="310">
+          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/echart1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1517468754380" expanded="true" signature="2241:2336" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3478">
+          <caret line="254" column="19" lean-forward="false" selection-start-line="254" selection-start-column="19" selection-end-line="254" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
