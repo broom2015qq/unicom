@@ -13,113 +13,108 @@
 <div th:fragment="pager" style="height: 100%" >
 <script th:inline="javascript">
     var searchid = [[${searchid}]];
-    console.log(searchid===null);
-    console.log("1.********"+searchid.id);
-    console.log(searchid.id===null);
     if (searchid.id===null){
         console.log("没有图表可以显示")
     }else {
-//    有searchid的时候才显示
-    console.log("2.********"+searchid.id);
-    var dom = document.getElementById("container");
-    var myChart = echarts.init(dom);
-    var app = {};
-    var option = null;
-    myChart.showLoading();
-        $.get('/js/used.gexf', function (xml) {
-//    $.getJSON("/js/data.json",function(graph){
-        myChart.hideLoading();
+        var dom = document.getElementById("container");
+        var myChart = echarts.init(dom);
+        var app = {};
+        var option = null;
+        myChart.showLoading();
 
-        var graph = echarts.dataTool.gexf.parse(xml);
-//        var graph = graph;
-        if(typeof(graph) == "object" &&
-            Object.prototype.toString.call(graph).toLowerCase() == "[object object]" && !graph.length){
-            console.info("json格式");
-            console.info(JSON.stringify(graph));
+        $.getJSON("/js/data.json",function(graph){
+            myChart.hideLoading();
+            var graph = [[${data}]];
+//            console.log(graph);
+            graph =JSON.parse(graph);
+            console.log(graph);
+            if(typeof(graph) == "object" &&
+                Object.prototype.toString.call(graph).toLowerCase() == "[object object]" && !graph.length){
+                console.info("json格式");
+                console.info(JSON.stringify(graph));
+            }
+            var categories = [];
+            for (var i = 0; i < 9; i++) {
+                categories[i] = {
+                    name: 'type' + i
+                };
+            }
 
-        }
-        var categories = [];
-        for (var i = 0; i < 9; i++) {
-            categories[i] = {
-                name: 'type' + i
-            };
-        }
-
-        //node赋值的过程
-        graph.nodes.forEach(function (node) {
-            node.description = "---"+searchid.id;
-            node.itemStyle = null;
-            //这里大小
-            node.value = node.symbolSize;
-            //表示size>30的才写
-            node.label = {
-                normal: {
-                    show: node.symbolSize > 30
-                }
-            };
-            //颜色
-            node.category = node.attributes.modularity_class;
-        });
-        option = {
-            title: {
-                text: '主标题',
-                subtext: '子标题',
-                top: 'top',
-                left: 'left'
-            },
-            //鼠标悬停
-            tooltip: {
-                trigger: 'item',
-                formatter: function (params){
-//                    console.log(JSON.stringify(params));
-                    res =
-                        '<span style="display:inline-block;margin-right:5px;border-radius:10px;width:9px;height:9px;background-color:' + params.color + '"></span>'+params.name+':'+params.data.symbolSize+'<br/>'+params.data.x+'_'+params.data.y+params.data.description;
-                    return res;
-                }
-            },
-            legend: [{
-                data: categories.map(function (a) {
-                    return a.name;
-                })
-
-            }],
-            animationDuration: 1500,
-            animationEasingUpdate: 'quinticInOut',
-            series : [
-                {
-                    name: 'node:location',
-                    type: 'graph',
-                    layout: 'none',
-                    data: graph.nodes,
-                    links: graph.links,
-                    categories: categories,
-                    roam: true,
-                    label: {
-                        normal: {
-                            position: 'right',
-                            //直接显示在界面上
-                            formatter: '{b}'
-                        }
-                    },
-                    lineStyle: {
-                        normal: {
-                            curveness: 0.1
-                        },
-                        type:"arrow"
+            //node赋值的过程
+            graph.nodes.forEach(function (node) {
+                node.description = "---"+searchid.id;
+                node.itemStyle = null;
+                //这里大小
+                node.value = node.symbolSize;
+                //表示size>30的才写
+                node.label = {
+                    normal: {
+                        show: node.symbolSize > 30
                     }
-                }
-            ]
-        };
+                };
+                //颜色
+                node.category = node.attributes.modularity_class;
+            });
+            option = {
+                title: {
+                    text: '主标题',
+                    subtext: '子标题',
+                    top: 'top',
+                    left: 'left'
+                },
+                //鼠标悬停
+                tooltip: {
+                    trigger: 'item',
+                    formatter: function (params){
+    //                    console.log(JSON.stringify(params));
+                        res =
+                            '<span style="display:inline-block;margin-right:5px;border-radius:10px;width:9px;height:9px;background-color:' + params.color + '"></span>'+params.name+':'+params.data.symbolSize+'<br/>'+params.data.x+'_'+params.data.y+params.data.description;
+                        return res;
+                    }
+                },
+                legend: [{
+                    data: categories.map(function (a) {
+                        return a.name;
+                    })
 
-        myChart.setOption(option);
-    }, 'xml');;
-    if (option && typeof option === "object") {
-        var startTime = +new Date();
-        myChart.setOption(option, true);
-        var endTime = +new Date();
-        var updateTime = endTime - startTime;
-        console.log("Time used:", updateTime);
-    }
+                }],
+                animationDuration: 1500,
+                animationEasingUpdate: 'quinticInOut',
+                series : [
+                    {
+                        name: 'node:location',
+                        type: 'graph',
+                        layout: 'none',
+                        data: graph.nodes,
+                        links: graph.links,
+                        categories: categories,
+                        roam: true,
+                        label: {
+                            normal: {
+                                position: 'right',
+                                //直接显示在界面上
+                                formatter: '{b}'
+                            }
+                        },
+                        lineStyle: {
+                            normal: {
+                                curveness: 0.1
+                            },
+                            type:"arrow"
+                        }
+                    }
+                ]
+            };
+
+            myChart.setOption(option);
+        }, 'xml');;
+        if (option && typeof option === "object") {
+            var startTime = +new Date();
+            myChart.setOption(option, true);
+            var endTime = +new Date();
+            var updateTime = endTime - startTime;
+            console.log("Time used:", updateTime);
+        }
 }
 </script>
 </div>

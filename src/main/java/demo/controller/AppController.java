@@ -52,11 +52,11 @@ public class AppController {
 
     @RequestMapping(value = "/idQuery",method = {RequestMethod.GET,RequestMethod.POST})
     public String findById(ModelMap modelMap,searchid searchid){
-        String data = "333";
-        //data应该是返回的json数据
+        String data = readjsonService.getData();
         modelMap.addAttribute("data", data);
         return "index1";
 //        return "echart1";
+//        return "tmp";
     }
 
     /**

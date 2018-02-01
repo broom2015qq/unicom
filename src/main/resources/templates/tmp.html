@@ -18,12 +18,12 @@
     var app = {};
     var option = null;
     myChart.showLoading();
-//    $.get('/js/used.gexf', function (xml) {
-    $.getJSON("/js/data.json",function(graph){
+    $.get('/js/used.gexf', function (xml) {
+//    $.getJSON("/js/data.json",function(graph){
         myChart.hideLoading();
 
-//        var graph = echarts.dataTool.gexf.parse(xml);
-        var graph = graph;
+        var graph = echarts.dataTool.gexf.parse(xml);
+//        var graph = graph;
         if(typeof(graph) == "object" &&
             Object.prototype.toString.call(graph).toLowerCase() == "[object object]" && !graph.length){
             console.info("json格式");
@@ -38,7 +38,7 @@
         }
         //node赋值的过程
         graph.nodes.forEach(function (node) {
-            node.description = "谁说不能自定义"
+            node.description = "hahah"
             node.itemStyle = null;
             //这里大小
             node.value = node.symbolSize;
