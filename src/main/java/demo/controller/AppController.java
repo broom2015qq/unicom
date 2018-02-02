@@ -25,7 +25,7 @@ public class AppController {
     private ReadjsonService readjsonService;
 
     /**
-     * 根据id获取dfs节点信息
+     * 根据id获取tfs节点信息
      * @param modelMap
      * @param searchid
      * @return
@@ -39,6 +39,26 @@ public class AppController {
         return "index1";
     }
 
+    @RequestMapping(value = "/index",method = {RequestMethod.GET,RequestMethod.POST})
+    public String showIndex(ModelMap modelMap,searchid searchid){
+        System.out.println(searchid.getId());
+        String data = readjsonService.getData();
+        modelMap.addAttribute("data", data);
+        return "index2";
+    }
+    /**
+     * 优化后的根据id获取tfs节点信息
+     * @param modelMap
+     * @param searchid
+     * @return
+     */
+    @RequestMapping(value = "/chart",method = {RequestMethod.GET,RequestMethod.POST})
+    public String showChart(ModelMap modelMap,searchid searchid){
+        System.out.println(searchid.getId());
+        String data = readjsonService.getData();
+        modelMap.addAttribute("data", data);
+        return "flot";
+    }
 
     /**
      * 输入id查询
@@ -90,7 +110,7 @@ public class AppController {
         JSONObject data = new JSONObject();
         data = JSON.parseObject(readjsonService.getData());
         model.addAttribute("data", data);
-        return "echart" ;
+        return "tmp" ;
     }
 
     /**

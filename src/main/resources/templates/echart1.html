@@ -27,11 +27,11 @@
             var graph = [[${data}]];
             graph =JSON.parse(graph);
             var categories = [];
-            for (var i = 0; i < 9; i++) {
-                categories[i] = {
-                    name: 'type' + i
-                };
-            }
+            categories[0]={name:'查询id'};
+            categories[1]={name:'TFS'};
+            categories[2]={name:'gitlab'};
+            categories[3]={name:'DCOS'};
+
 
             //node赋值的过程
             graph.nodes.forEach(function (node) {
@@ -50,7 +50,7 @@
             });
             option = {
                 title: {
-                    text: 'TFS节点预览',
+//                    text: 'TFS节点预览',
 //                    subtext: '子标题',
                     top: 'top',
                     left: 'left'
@@ -111,8 +111,10 @@
             var updateTime = endTime - startTime;
             console.log("Time used:", updateTime);
         }
+
 }
 </script>
+
 </div>
 </body>
 </html>
